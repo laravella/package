@@ -1,6 +1,6 @@
 {
-    "name": "laravella/package",
-    "description": "A starter package with a facade and install, update commands",
+    "name": "laravella/cart",
+    "description": "A shopping cart",
     "authors": [
         {
             "name": "laravella",
@@ -15,7 +15,8 @@
         "classmap": [
             "src/controllers",
             "src/commands",
-            "src/migrations"
+            "src/migrations",
+            "src/database/seeds"
         ],
         "psr-0": {
             "Laravella\\Cart": "src/"
