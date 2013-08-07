@@ -1,4 +1,4 @@
-package
-==========
+cart
+====
 
-A starter package for Laravel 4 with an example facade.
+Shopping cart

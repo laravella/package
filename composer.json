@@ -1,6 +1,6 @@
 {
     "name": "laravella/package",
-    "description": "A starter package with a facade",
+    "description": "A starter package with a facade and install, update commands",
     "authors": [
         {
             "name": "laravella",
@@ -14,8 +14,12 @@
     "autoload": {
         "classmap": [
             "src/controllers",
+            "src/commands",
             "src/migrations"
-        ]
+        ],
+        "psr-0": {
+            "Laravella\\Cart": "src/"
+        }
     },
     "minimum-stability": "dev"
 }
